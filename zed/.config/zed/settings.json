@@ -1,0 +1,45 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "theme": "Zedokai Darker (Filter Spectrum)",
+  "agent_servers": {
+    "opencode": {
+      "favorite_models": [
+        "opencode-go/glm-5",
+        "opencode-go/minimax-m2.5",
+        "opencode-go/kimi-k2.5",
+      ],
+      "type": "registry",
+    },
+  },
+  "ui_font_family": ".ZedSans",
+  "buffer_line_height": "comfortable",
+  "git": {
+    "hunk_style": "staged_hollow",
+    "inline_blame": {
+      "show_commit_summary": true,
+    },
+  },
+  "soft_wrap": "editor_width",
+  "icon_theme": "Bearded Icons",
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000,
+    },
+  },
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 14,
+  "tabs": {
+    "file_icons": true,
+  },
+  "bottom_dock_layout": "contained",
+}
