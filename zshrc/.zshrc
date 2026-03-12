@@ -57,6 +57,7 @@ zstyle ':completion:*' menu no
 
 # Oh my posh
 eval "$(oh-my-posh init zsh)"
+eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/themes/main.omp.json)"
 
 # Node Version Manager
 export NVM_DIR="$HOME/.nvm"
