@@ -30,6 +30,10 @@ alias ls='ls --color'
 bindkey -e
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
+bindkey '^[[A' history-beginning-search-backward # Up arrow
+bindkey '^[[B' history-beginning-search-forward  # Down arrow
+bindkey '^[OA' history-beginning-search-backward # Up arrow
+bindkey '^[OB' history-beginning-search-forward  # Down arrow
 
 # History
 HISTSIZE=5000
