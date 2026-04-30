@@ -7,7 +7,32 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "cli_default_open_behavior": "new_window",
+  "show_edit_predictions": false,
+  "edit_predictions": {
+    "mode": "subtle",
+  },
+  "project_panel": {
+    "dock": "left",
+  },
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "git_panel": {
+    "dock": "left",
+  },
   "terminal": {
+    "toolbar": {
+      "breadcrumbs": false
+    },
     "font_size": 12.0,
     "font_family": "JetBrainsMonoNL Nerd Font",
     "line_height": "comfortable",
@@ -27,6 +52,7 @@
   },
   "buffer_line_height": "comfortable",
   "git": {
+    "gutter_debounce": 0,
     "hunk_style": "staged_hollow",
     "inline_blame": {
       "show_commit_summary": true,
@@ -46,6 +72,8 @@
   "buffer_font_size": 12.0,
   "tabs": {
     "file_icons": true,
+    "git_status": true,
   },
-  "bottom_dock_layout": "contained",
+  "bottom_dock_layout": "full",
+  "max_tabs": 12,
 }
