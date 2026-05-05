@@ -7,6 +7,20 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "completions": {
+    "words_min_length": 4,
+  },
+  "use_system_window_tabs": false,
+  "focus_follows_mouse": {
+    "enabled": false,
+  },
+  "title_bar": {
+    "show_branch_status_icon": true,
+  },
+  "status_bar": {
+    "show_active_file": true,
+    "active_encoding_button": "enabled",
+  },
   "cli_default_open_behavior": "new_window",
   "show_edit_predictions": false,
   "edit_predictions": {
@@ -30,15 +44,16 @@
     "dock": "left",
   },
   "terminal": {
+    "dock": "bottom",
     "toolbar": {
-      "breadcrumbs": false
+      "breadcrumbs": true,
     },
     "font_size": 12.0,
     "font_family": "JetBrainsMonoNL Nerd Font",
     "line_height": "comfortable",
   },
   "buffer_font_family": "JetBrainsMonoNL Nerd Font",
-  "ui_font_family": "JetBrainsMonoNL Nerd Font",
+  "ui_font_family": "JetBrainsMonoNL Nezrd Font",
   "theme": "Zedokai Darker (Filter Spectrum)",
   "agent_servers": {
     "opencode": {
@@ -76,4 +91,6 @@
   },
   "bottom_dock_layout": "full",
   "max_tabs": 12,
+  "auto_signature_help": true,
+  "show_signature_help_after_edits": true,
 }
