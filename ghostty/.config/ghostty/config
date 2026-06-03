@@ -1,4 +1,5 @@
 theme = Monokai Pro Spectrum
-font-size = 14
+font-size = 10
 background-opacity = 0.98
 font-family = JetBrainsMonoNL Nerd Font
+command = /bin/zsh
