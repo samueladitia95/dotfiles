@@ -53,18 +53,8 @@
     "line_height": "comfortable",
   },
   "buffer_font_family": "JetBrainsMonoNL Nerd Font",
-  "ui_font_family": "JetBrainsMonoNL Nezrd Font",
+  "ui_font_family": "JetBrainsMonoNL Nerd Font",
   "theme": "Zedokai Darker (Filter Spectrum)",
-  "agent_servers": {
-    "opencode": {
-      "favorite_models": [
-        "opencode-go/glm-5",
-        "opencode-go/minimax-m2.5",
-        "opencode-go/kimi-k2.5",
-      ],
-      "type": "registry",
-    },
-  },
   "buffer_line_height": "comfortable",
   "git": {
     "gutter_debounce": 0,
